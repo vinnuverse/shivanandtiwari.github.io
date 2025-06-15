@@ -1,64 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tiwari Shivanand | Data Analyst Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f8f9fa;
-      padding: 40px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
       color: #333;
-      line-height: 1.6;
     }
-    h1, h2 {
-      color: #0077b6;
+    header {
+      background-color: #004aad;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
     }
-    a {
-      color: #0077b6;
-      text-decoration: none;
+    header h1 {
+      margin: 0;
+      font-size: 2.4em;
     }
-    a:hover {
-      text-decoration: underline;
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
     }
     .project {
+      background-color: #fff;
+      padding: 20px;
       margin-bottom: 20px;
+      border-left: 6px solid #004aad;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
-    .footer {
-      margin-top: 40px;
-      font-size: 0.9rem;
+    .project h2 {
+      margin-top: 0;
+    }
+    .project a {
+      color: #004aad;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .project a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    footer a {
+      color: #004aad;
+      margin: 0 10px;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <h1>👋 Hi, I'm Tiwari Shivanand</h1>
-  <p>Aspiring Data Analyst | Python • SQL • Data Storytelling</p>
 
-  <h2>📊 Portfolio Projects</h2>
+  <header>
+    <h1>Tiwari Shivanand</h1>
+    <p>Data Analyst | Python • SQL • Insights • Visuals</p>
+  </header>
 
-  <div class="project">
-    <strong>🦠 COVID-19 Data Analysis (Python)</strong><br>
-    <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/Python/project1_covid_analysis" target="_blank">View Project →</a>
+  <div class="container">
+    <div class="project">
+      <h2>🦠 COVID-19 Data Analysis (Python)</h2>
+      <p>Analyzed global COVID-19 trends using pandas, matplotlib and data wrangling techniques.</p>
+      <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/Python/project1_covid_analysis" target="_blank">🔗 View Project on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h2>🚢 Titanic Survival Analysis (Python)</h2>
+      <p>Exploratory data analysis on Titanic dataset to discover key survival factors using matplotlib, seaborn and data cleaning.</p>
+      <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/Python/project2_titanic_analysis" target="_blank">🔗 View Project on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h2>📈 Sales Database Querying (SQL)</h2>
+      <p>Ran multiple SQL queries on a retail sales database to uncover trends, KPIs and customer behavior insights.</p>
+      <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/SQL/project1_sales_analysis" target="_blank">🔗 View Project on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h2>🛒 Indian E-commerce Orders (SQL)</h2>
+      <p>Used SQL to analyze 100,000+ e-commerce order records: product trends, shipping delays, and order volumes.</p>
+      <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/SQL/project2_india_ecommerce" target="_blank">🔗 View Project on GitHub</a>
+    </div>
   </div>
 
-  <div class="project">
-    <strong>🚢 Titanic Survival Analysis (Python)</strong><br>
-    <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/Python/project2_titanic_analysis" target="_blank">View Project →</a>
-  </div>
+  <footer>
+    <p>
+      Connect with me on  
+      <a href="https://www.linkedin.com/in/tiwari-shivanand-mystore" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/vinnuverse" target="_blank">GitHub</a>
+    </p>
+  </footer>
 
-  <div class="project">
-    <strong>📈 Sales Database Analysis (SQL)</strong><br>
-    <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/SQL/project1_sales_analysis" target="_blank">View Project →</a>
-  </div>
-
-  <div class="project">
-    <strong>🛒 Indian E-Commerce Orders Analysis (SQL)</strong><br>
-    <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/SQL/project2_india_ecommerce" target="_blank">View Project →</a>
-  </div>
-
-  <div class="footer">
-    🔗 <a href="https://www.linkedin.com/in/tiwari-shivanand-mystore" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/vinnuverse" target="_blank">GitHub</a>
-  </div>
 </body>
 </html>
