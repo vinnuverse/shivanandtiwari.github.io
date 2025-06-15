@@ -1,64 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tiwari Shivanand | Data Analyst Portfolio</title>
   <style>
     body {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f5f7fa;
       color: #333;
     }
+
     header {
       background-color: #004aad;
       color: white;
-      padding: 30px 20px;
+      padding: 40px 20px;
       text-align: center;
     }
+
     header h1 {
+      font-size: 2.5em;
       margin: 0;
-      font-size: 2.4em;
     }
+
     header p {
-      margin-top: 10px;
-      font-size: 1.1em;
+      margin: 10px 0 0;
+      font-size: 1.2em;
     }
+
     .container {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 30px 20px;
     }
+
     .project {
-      background-color: #fff;
+      background: white;
       padding: 20px;
       margin-bottom: 20px;
       border-left: 6px solid #004aad;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.06);
     }
+
     .project h2 {
       margin-top: 0;
     }
+
     .project a {
       color: #004aad;
       text-decoration: none;
       font-weight: bold;
     }
+
     .project a:hover {
       text-decoration: underline;
     }
+
     footer {
-      background-color: #eee;
+      background-color: #003370;
+      color: white;
       text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
+      padding: 20px 10px;
     }
+
     footer a {
-      color: #004aad;
-      margin: 0 10px;
+      color: #f0f0f0;
       text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      background: #ffffff;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-top: 40px;
+      border-radius: 4px;
+    }
+
+    form h2 {
+      margin-top: 0;
+      color: #004aad;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+    }
+
+    form button {
+      background-color: #004aad;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+
+    form button:hover {
+      background-color: #003370;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      .container {
+        padding: 20px 10px;
+      }
     }
   </style>
 </head>
@@ -66,38 +125,46 @@
 
   <header>
     <h1>Tiwari Shivanand</h1>
-    <p>Data Analyst | Python • SQL • Insights • Visuals</p>
+    <p>Data Analyst | Python • SQL • Storytelling with Data</p>
   </header>
 
   <div class="container">
     <div class="project">
       <h2>🦠 COVID-19 Data Analysis (Python)</h2>
-      <p>Analyzed global COVID-19 trends using pandas, matplotlib and data wrangling techniques.</p>
-      <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/Python/project1_covid_analysis" target="_blank">🔗 View Project on GitHub</a>
+      <p>Exploratory Data Analysis on pandemic trends across countries using pandas and matplotlib.</p>
+      <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/Python/project1_covid_analysis" target="_blank">🔗 View Project</a>
     </div>
 
     <div class="project">
       <h2>🚢 Titanic Survival Analysis (Python)</h2>
-      <p>Exploratory data analysis on Titanic dataset to discover key survival factors using matplotlib, seaborn and data cleaning.</p>
-      <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/Python/project2_titanic_analysis" target="_blank">🔗 View Project on GitHub</a>
+      <p>Analyzed passenger data to discover key survival factors using seaborn, pandas, and matplotlib.</p>
+      <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/Python/project2_titanic_analysis" target="_blank">🔗 View Project</a>
     </div>
 
     <div class="project">
-      <h2>📈 Sales Database Querying (SQL)</h2>
-      <p>Ran multiple SQL queries on a retail sales database to uncover trends, KPIs and customer behavior insights.</p>
-      <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/SQL/project1_sales_analysis" target="_blank">🔗 View Project on GitHub</a>
+      <h2>📈 Retail Sales Database (SQL)</h2>
+      <p>Wrote optimized SQL queries on sales data to analyze revenue, products, and customer patterns.</p>
+      <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/SQL/project1_sales_analysis" target="_blank">🔗 View Project</a>
     </div>
 
     <div class="project">
-      <h2>🛒 Indian E-commerce Orders (SQL)</h2>
-      <p>Used SQL to analyze 100,000+ e-commerce order records: product trends, shipping delays, and order volumes.</p>
-      <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/SQL/project2_india_ecommerce" target="_blank">🔗 View Project on GitHub</a>
+      <h2>🛒 Indian E-Commerce Orders (SQL)</h2>
+      <p>Analyzed over 100,000 order records to discover product insights, delays, and order behavior.</p>
+      <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/SQL/project2_india_ecommerce" target="_blank">🔗 View Project</a>
     </div>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <h2>📬 Contact Me</h2>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
   </div>
 
   <footer>
     <p>
-      Connect with me on  
+      © 2025 Tiwari Shivanand •
       <a href="https://www.linkedin.com/in/tiwari-shivanand-mystore" target="_blank">LinkedIn</a> |
       <a href="https://github.com/vinnuverse" target="_blank">GitHub</a>
     </p>
