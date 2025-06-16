@@ -2,108 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tiwari Shivanand | Data Analyst Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shivanand Tiwari | Data Analyst Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <div class="nav-container">
-      <h1 class="logo">Shivanand</h1>
-      <nav id="navbar">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><button id="themeToggle">🌙</button></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>Shivanand Tiwari</h1>
+    <p>Data Analyst | Python & SQL Projects | Insights that Drive Results</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle">🌙</button>
+    </nav>
+    <a class="resume-btn" href="https://drive.google.com/file/d/1hHCLGVLyBoqDzcLgdwKIh-UaEOdgPPva/view?usp=sharing" target="_blank">📄 View My Resume</a>
   </header>
 
-  <section id="hero">
-    <h2>Hello, I'm Tiwari Shivanand</h2>
-    <p>Data Analyst | Python • SQL • Visualization • Storytelling</p>
-    <a href="https://drive.google.com/file/d/1hHCLGVLyBoqDzcLgdwKIh-UaEOdgPPva/view?usp=sharing" target="_blank" class="btn">📄 Download Resume</a>
-  </section>
-
-  <main class="container">
-    <section id="about">
-      <h2>👤 About Me</h2>
-      <p>I’m a data analyst with expertise in Python, SQL, and storytelling with data. I enjoy solving real-world business problems using data. My interests include e-commerce analytics, visual dashboards, and turning raw numbers into actionable insights. I'm always eager to learn and collaborate on data-driven projects.</p>
-    </section>
-
+  <main>
     <section id="projects">
-      <h2>📊 Projects</h2>
+      <h2>🧠 Projects</h2>
       <div class="filters">
         <button data-filter="all">All</button>
         <button data-filter="python">Python</button>
         <button data-filter="sql">SQL</button>
       </div>
-
-      <div class="project-grid">
+      <div class="project-list">
         <div class="project-card python">
-          <img src="assets/covid.png" alt="COVID Project" />
           <h3>COVID-19 Data Analysis</h3>
-          <p>Trend analysis with Python, pandas, and matplotlib.</p>
-          <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/Python/project1_covid_analysis" target="_blank">View Project →</a>
+          <p>Explored global COVID trends using data visualization in Python.</p>
+          <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/Python/project1_covid_analysis" target="_blank">🔗 View on GitHub</a>
         </div>
 
         <div class="project-card python">
-          <img src="assets/titanic.png" alt="Titanic Project" />
-          <h3>Titanic Survival EDA</h3>
-          <p>Exploratory data analysis of Titanic passengers using Python.</p>
-          <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/Python/project2_titanic_analysis" target="_blank">View Project →</a>
+          <h3>Titanic Dataset EDA</h3>
+          <p>Uncovered survival patterns in Titanic data using Pandas & Matplotlib.</p>
+          <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/Python/project2_titanic_analysis" target="_blank">🔗 View on GitHub</a>
         </div>
 
         <div class="project-card sql">
-          <img src="assets/sales.png" alt="Sales SQL" />
-          <h3>Sales Database Analysis</h3>
-          <p>SQL queries for order insights, KPIs, and trends.</p>
-          <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/SQL/project1_sales_analysis" target="_blank">View Project →</a>
+          <h3>Sales Insights (SQL)</h3>
+          <p>Analyzed fictional sales DB to get monthly orders, top SKUs & performance.</p>
+          <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/SQL/project1_sales_analysis" target="_blank">🔗 View on GitHub</a>
         </div>
 
         <div class="project-card sql">
-          <img src="assets/ecom.png" alt="E-commerce Project" />
-          <h3>Indian E-Commerce Analysis</h3>
-          <p>Analyzed 100K orders using SQLite and SQL.</p>
-          <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/SQL/project2_india_ecommerce" target="_blank">View Project →</a>
+          <h3>Indian E-commerce Orders (SQL)</h3>
+          <p>Analyzed 100K+ order records from Indian market using SQLite.</p>
+          <a href="https://github.com/vinnuverse/data-analytics-portfolio/tree/main/SQL/project2_india_ecommerce" target="_blank">🔗 View on GitHub</a>
         </div>
       </div>
     </section>
 
-    <section id="blog">
-      <h2>📝 Case Studies</h2>
-      <ul class="blog-links">
-        <li><a href="blog/covid-case-study.html">COVID Data Storytelling →</a></li>
-        <li><a href="blog/titanic-survival-story.html">What Saved Titanic Passengers? →</a></li>
-      </ul>
+    <section id="about">
+      <h2>👨‍💻 About Me</h2>
+      <p>Hi, I'm Shivanand! I specialize in transforming raw data into visual insights using Python, SQL & Excel. I love building clean dashboards, solving business problems, and continuously learning. Let’s collaborate!</p>
+      <p><a href="https://www.linkedin.com/in/tiwari-shivanand-mystore" target="_blank">🔗 Connect with me on LinkedIn</a></p>
     </section>
 
     <section id="contact">
-      <h2>📬 Contact</h2>
-      <form action="https://formspree.io/f/your-form-id" method="POST">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <button type="submit">Send Message</button>
+      <h2>📬 Contact Me</h2>
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send ✉️</button>
       </form>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Tiwari Shivanand — 
-      <a href="https://www.linkedin.com/in/tiwari-shivanand-mystore" target="_blank">LinkedIn</a> • 
-      <a href="https://github.com/vinnuverse" target="_blank">GitHub</a>
-    </p>
+    <p>🚀 Built by Shivanand Tiwari • <a href="https://github.com/vinnuverse" target="_blank">GitHub</a></p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
